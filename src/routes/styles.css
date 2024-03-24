@@ -2,9 +2,9 @@
 
 :root {
 	--font-body: 'Ibarra Real Nova';
-  --font-mono: 'Fira Mono', monospace;
-	--color-bg-0: #F4F0EC;
-	--color-bg-1: #B48E92;
+	--font-mono: 'Fira Mono', monospace;
+	--color-bg-0: #f4f0ec;
+	--color-bg-1: #b48e92;
 	--color-bg-2: hsl(224, 44%, 95%);
 	--color-theme-1: #af8e83;
 	--color-theme-2: #4075a6;
@@ -14,7 +14,6 @@
 	font-family: var(--font-body);
 	/* color: var(--color-text); */
 }
-
 
 /* a {
 	color: var(--color-theme-1);
