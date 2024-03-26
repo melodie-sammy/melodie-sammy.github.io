@@ -11,8 +11,8 @@
 			</picture>
 		</span>
 	</div>
-	<nav class="navbar">
-		<ul>
+	<nav>
+		<ul class="navbar">
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
 			</li>
@@ -48,12 +48,6 @@
 	}
 
 	.navbar {
-		display: flex;
-		justify-content: center;
-	}
-
-	ul {
-		position: relative;
 		padding: 0;
 		margin: 0;
 		height: 3em;
@@ -61,11 +55,9 @@
 		justify-content: center;
 		align-items: center;
 		list-style: none;
-		background-size: contain;
 	}
 
-	nav a {
-		display: flex;
+	.navbar a {
 		height: 100%;
 		align-items: center;
 		padding: 0 1.5rem;
@@ -78,25 +70,7 @@
 		transition: color 0.2s linear;
 	}
 
-	a:hover {
-		/* color: #ff3e00; */
+	.navbar a:hover {
 		color: var(--color-theme-1);
 	}
-
-	/* li {
-		position: relative;
-		height: 100%;
-	} */
-
-	/* li[aria-current='page']::before {
-		--size: 6px;
-		content: '';
-		width: 0;
-		height: 0;
-		position: absolute;
-		top: 0;
-		left: calc(50% - var(--size));
-		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--color-theme-1);
-	} */
 </style>

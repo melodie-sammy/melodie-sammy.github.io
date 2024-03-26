@@ -9,13 +9,6 @@
 	--color-theme-1: #af8e83;
 	--color-theme-2: #4075a6;
 	--color-text: rgba(0, 0, 0, 0.7);
-	--column-width: 42rem;
-	--column-margin-top: 4rem;
+  min-width: 900px;
 	font-family: var(--font-body);
-	/* color: var(--color-text); */
 }
-
-/* a {
-	color: var(--color-theme-1);
-	text-decoration: none;
-} */

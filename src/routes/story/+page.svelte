@@ -26,6 +26,7 @@
 		color: #000;
 		font-family: 'Ibarra Real Nova';
 		font-size: 50px;
+    min-width: 310px; /* Make unresponsive to avoid wrapping */
 		font-style: normal;
 		font-weight: 400;
 		line-height: normal;
@@ -34,6 +35,7 @@
 		color: #000;
 		font-family: Zapfino;
 		font-size: 10px;
+    min-width: 200px; /* Make unresponsive to avoid wrapping */
 		font-style: normal;
 		font-weight: 400;
 		line-height: normal;
