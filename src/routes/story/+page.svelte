@@ -20,6 +20,7 @@
 		align-items: center;
 		background-color: var(--color-bg-0);
 		padding-top: 10px;
+    text-align: center;
 	}
 	.our-story-fancy-font .header {
 		text-transform: uppercase;
