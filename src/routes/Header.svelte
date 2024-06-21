@@ -63,7 +63,6 @@
 		padding: 0 1.5rem;
 		color: var(--color-text);
 		font-weight: 400;
-		/* font-size: 0.8rem; */
 		text-transform: uppercase;
 		letter-spacing: 0.02em;
 		text-decoration: none;
