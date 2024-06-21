@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 
 :root {
-	--font-body: 'Ibarra Real Nova';
-	--font-mono: 'Fira Mono', monospace;
-	--color-bg-0: #f4f0ec;
-	--color-bg-1: #b48e92;
-	--color-bg-2: hsl(224, 44%, 95%);
-	--color-theme-1: #af8e83;
-	--color-theme-2: #4075a6;
-	--color-text: rgba(0, 0, 0, 0.7);
+  --font-body: 'Ibarra Real Nova';
+  --font-mono: 'Fira Mono', monospace;
+  --color-bg-0: #f4f0ec;
+  --color-bg-1: #b48e92;
+  --color-bg-2: hsl(224, 44%, 95%);
+  --color-theme-1: #af8e83;
+  --color-theme-2: #4075a6;
+  --color-text: rgba(0, 0, 0, 0.7);
   min-width: 900px;
-	font-family: var(--font-body);
+  font-family: var(--font-body);
 }
