@@ -39,8 +39,6 @@
   }
 
   .auth-wall :global(.unauthenticated) {
-    color: red;
-    /* filter: blur(10px); */
     user-select: none;
     pointer-events: none;
   }

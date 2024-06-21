@@ -11,7 +11,7 @@
     console.log('already on homepage');
   } else {
     console.log('not authenticated, redirecting to homepage');
-    // redirect(307, '/');
+    redirect(307, '/');
   }
 </script>
 
