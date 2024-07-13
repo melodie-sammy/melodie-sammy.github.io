@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Header from './Header.svelte';
+  import SiteHeader from './SiteHeader.svelte';
   import AuthWall from './AuthWall.svelte';
   import { authenticated } from '$lib/auth';
   import { page } from '$app/stores';
@@ -17,7 +17,7 @@
 
 <div class="app">
   <AuthWall>
-    <Header />
+    <SiteHeader />
     <main class="main">
       <slot />
     </main>
