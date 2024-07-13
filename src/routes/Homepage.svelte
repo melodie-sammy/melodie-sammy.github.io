@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 581px;
+    height: 30rem;
   }
 
   .unauthenticated {
