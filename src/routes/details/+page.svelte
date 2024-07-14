@@ -24,7 +24,7 @@
     },
     {
       header: 'Weather',
-      info: 'While we cannot predict the <a href="www.weather.com">forecast</a> for our special day, the weather is typically [TBD] at this time of the year.'
+      info: 'While we cannot predict the <a href="https://www.weather.com">forecast</a> for our special day, the weather is typically [TBD] at this time of the year.'
     },
     {
       header: 'Unplugged',
@@ -40,7 +40,7 @@
     },
     {
       header: 'Registry',
-      info: 'Please know that your love and company is all we could ask for! However, if you do wish to celebrate with a gift, we\'ve created an online <a href="www.google.com">registry</a>.'
+      info: 'Please know that your love and company is all we could ask for! However, if you do wish to celebrate with a gift, we\'ve created an online <a href="registry/">registry</a>.'
     },
     {
       header: 'Capture it, Remember it',
@@ -99,7 +99,7 @@
     flex-direction: column;
   }
   .faq {
-    width: 80%;
+    width: 50%;
     justify-content: center;
     margin: 0 auto 5rem;
   }

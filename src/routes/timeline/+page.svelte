@@ -17,7 +17,7 @@
         <span>2:00</span>
         <span>Tea Ceremony</span>
       </div>
-      <div class="event">
+      <div class="event camera">
         <img src={Camera} alt="tbd alt" />
         <span>5:00</span>
         <span>Wedding Photos</span>
@@ -32,7 +32,7 @@
       <TimelineTree />
     </div>
     <div class="rightColumn">
-      <div class="event">
+      <div class="event weddingrings">
         <img src={WeddingRings} alt="tbd alt" />
         <span>3:30</span>
         <span>Wedding Ceremony</span>
@@ -67,11 +67,18 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 1rem 0 1rem 0;
+    padding: 2rem 0 2rem 0;
     color: var(--color-bg-0);
     text-transform: uppercase;
   }
 
+  .camera img {
+    width: 7rem;
+    padding-bottom: 0.4rem;
+  }
+  .weddingrings img {
+    width: 7rem;
+  }
   .leftColumn,
   .rightColumn {
     display: flex;
